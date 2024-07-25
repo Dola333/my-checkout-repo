@@ -1,4 +1,715 @@
 * {
     margin: 0%;
     padding: 0%;
+    font-family: "Montserrat", sans-serif;
 }
+
+/* header section */
+
+.header  {
+    width: 180px;
+    height: 44px;
+    margin-top: 64.06px;
+    margin-left: 240px;
+    gap: 0px;
+    opacity: 0px;
+    transform:rotate(0.02deg);
+    
+}
+
+
+.header > h1 {
+    color: #4E5150;
+
+font-size: 36px;
+font-weight: 600;
+line-height: 43.88px;
+text-align: left;
+
+}
+
+/* main */
+
+.infos {
+    display: flex;
+    gap: 20px;
+}
+
+
+.info  {
+    width: 181px;
+    height: 22px;
+
+margin-top: 50px;
+margin-left: 239px;
+gap: 0px;
+opacity: 0px;
+transform:rotate(0.02deg);
+
+
+
+}
+
+.info > h1 {
+    color: #333333;
+display: flex;
+flex-direction: row;
+font-size: 16.9px;
+font-weight: 600;
+margin-bottom: 20px;
+
+text-align: left;
+
+}
+
+
+.new {
+    margin-top: 100px;
+    margin-top: 250px;
+}
+
+label {
+    color: #4F4F4F;
+
+font-size: 12px;
+font-weight: 600;
+line-height: 14.63px;
+text-align: left;
+
+}
+
+.email {
+    width: 465px;
+height: 56px;
+margin-top: 5px;
+gap: 0px;
+border-radius: 12px;
+border: 1px solid #828282;
+opacity: 0px;
+margin-bottom: 10px;
+color: #828282;
+padding-left: 20px;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.5px;
+text-align: left;
+background: url("https://cdn.vectorstock.com/i/1000v/25/91/email-envelope-icon-mail-message-symbol-isolated-vector-23032591.avif");
+background-repeat: no-repeat;
+background-position: left;
+background-size: 20px;
+}
+
+.phone {
+    width: 465px;
+    height: 56px;
+    margin-top: 5px;
+    gap: 0px;
+    border-radius: 12px;
+    border: 1px solid #828282;
+    opacity: 0px;
+    margin-bottom: 10px;
+    color: #828282;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+    background-image:url("https://cdn.vectorstock.com/i/1000v/88/17/phone-call-icon-vector-8098817.avif") ;
+    background-repeat: no-repeat;
+    background-position: left; 
+    background-size: 20px;
+}
+
+.name {
+    width: 465px;
+    height: 56px;
+    margin-top: 5px;
+    gap: 0px;
+    border-radius: 12px;
+    border: 1px solid #828282;
+    opacity: 0px;
+    margin-bottom: 10px;
+    color: #828282;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+    background-image: url("https://cdn.vectorstock.com/i/1000v/53/42/user-member-avatar-face-profile-icon-vector-22965342.avif");
+    background-repeat: no-repeat;
+    background-position: left; 
+    background-size: 20px;
+}
+
+.city {
+    width: 465px;
+    height: 56px;
+    margin-top: 5px;
+    gap: 0px;
+    border-radius: 12px;
+    border: 1px solid #828282;
+    opacity: 0px;
+    margin-bottom: 10px;
+    color: #828282;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+    background-image:url("https://cdn.vectorstock.com/i/1000x1000/80/43/smart-city-buldings-antenna-communication-vector-25648043.webp") ;
+    background-repeat: no-repeat;
+    background-position: left; 
+    background-size: 20px;
+}
+
+.address {
+    width: 465px;
+    height: 56px;
+    margin-top: 5px;
+    gap: 0px;
+    border-radius: 12px;
+    border: 1px solid #828282;
+    opacity: 0px;
+    margin-bottom: 10px;
+    color: #828282;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+    background-image:url("https://cdn.vectorstock.com/i/1000v/31/46/home-icon-vector-6533146.avif") ;
+    background-repeat: no-repeat;
+    background-position: left; 
+    background-size: 20px;
+}
+
+
+.country {
+    width: 230px;
+height: 56px;
+margin-top: 5px;
+gap: 0px;
+border-radius: 12px;
+border: 1px solid #828282;
+opacity: 0px;
+color:#828282;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.5px;
+text-align: left;
+padding-left: 30px;
+background-image:url(" https://cdn.vectorstock.com/i/1000v/06/96/global-wireframe-latitude-atlantic-earth-globe-vector-510696.avif") ;
+    background-repeat: no-repeat;
+    background-position: left; 
+    background-size: 20px;
+
+}
+
+
+.postal {
+    width: 217px;
+    height: 56px;
+    margin-top: 5px;
+    gap: 0px;
+    border-radius: 12px;
+    border: 1px solid #828282;
+    opacity: 0px;
+    color:#828282;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.5px;
+text-align: left;
+padding-left: 18px;
+background-image: url(" https://cdn.vectorstock.com/i/1000x1000/90/83/envelope-mail-with-mailbox-postal-service-vector-28479083.webp ") ;
+    background-repeat: no-repeat;
+    background-position: left; 
+    background-size: 20px;
+}
+
+
+
+.information {
+    
+
+margin-top: 388px;
+margin-left: 242px;
+gap: 0px;
+opacity: 0px;
+transform: rotate(0.02deg);
+margin-bottom: 20px;
+
+
+}
+
+.information > label {
+   color: #4F4F4F; 
+font-size: 12px;
+font-weight: 600;
+margin-left: 5px;
+text-align: left;
+
+}
+
+.btn {
+    width: 166px;
+height: 54px;
+border: 1px solid #F2994A ;
+margin-left: 559px;
+gap: 0px;
+border-radius: 12px;
+background: #F2994A;
+color:#FFFFFF;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.5px;
+text-align: center;
+
+
+}
+
+.main {
+    display: flex;
+    gap: 80px;
+    flex-direction: row;
+    margin-bottom: 150px;
+}
+
+.bags {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.baggy > img {
+    width: 134.21px;
+height: 136.27px;
+border-radius: 12px;
+gap: 0px;
+opacity: 0px;
+transform: rotate(0.02deg);
+
+}
+
+
+.bag-info {
+    width: 383px;
+height: 545px;
+background: #F2F2F2;
+margin-top: 60px;
+gap: 0px;
+border-radius: 12px;
+opacity: 0px;
+
+
+}
+
+
+.baggy > h5 {
+    color: #4E5150;
+
+font-size: 16px;
+font-weight: 600;
+line-height: 19.5px;
+text-align: left;
+padding-left: 15px;
+
+}
+
+.baggy > p {
+    padding-left: 15px;
+    padding-top: 10px;
+    transform: rotate(0.02deg);
+}
+
+
+.orange {
+    
+font-size: 16px;
+font-weight: 600;
+line-height: 19.5px;
+text-align: left;
+color: #F2994A;
+
+}
+
+.black {
+    
+font-size: 12px;
+font-weight: 600;
+line-height: 14.63px;
+text-align: left;
+color: #4E5150;
+padding-left: 10px;
+text-decoration: line-through;
+
+}
+
+.butty {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 134.25px;
+height: 52px;
+border-radius: 12px;
+gap: 0px;
+border: 1px solid #828282;
+opacity: 0px;
+
+}
+
+.but {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.but > p {
+    color: #333333;
+
+font-size: 16px;
+font-weight: 600;
+line-height: 19.5px;
+text-align: left;
+
+}
+
+.but > input {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #82828218;
+    background-color: #82828218;
+    color:#333333;
+    gap: 0px;
+    opacity: 0px;
+    text-align: center;
+    padding-bottom: 3px;
+    font-size: 13px;
+    cursor: pointer;
+   
+    
+}
+
+hr {
+    margin-left: 30px;
+    margin-right: 30px;
+    color:#BDBDBD;
+    display: flex;
+    align-items: center;
+}
+
+
+.newss {
+    margin-bottom: 120px;
+}
+
+.shippings {
+    color: #333333;
+padding: 8px;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.94px;
+text-align: left;
+margin-left: 20px ;
+
+}
+
+
+
+.money {
+    padding-left: 200px;
+    font-size: 14px;
+    
+}
+.honey {
+    padding-left: 210px;
+}
+
+
+
+/* footer */
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.footer > p {
+    
+font-size: 14px;
+font-weight: 600;
+line-height: 17.07px;
+text-align: center;
+color:#BDBDBD;
+}
+
+.footer > p > a {
+    color:#BDBDBD;
+}
+
+
+
+
+@media screen and (max-width:375px) {
+    .header > h1 { 
+        font-size: 24px;
+    }
+
+
+    .header {
+        margin-left: 18px;
+        margin-top: 32.04px;
+    }
+  
+
+    .main {
+        display: flex;
+        gap: 80px;
+        flex-direction:column-reverse; 
+        
+    }
+   
+
+    .bag-info {
+        margin-top: 20px;
+        width: 350px;
+        height: 549px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .baggy > img {
+        width: 122.75px;
+height: 124.64px;
+
+
+    }
+
+
+    .butty {
+        margin-top: 20px;
+        width: 122.8px;
+        height: 49.86px;
+    }
+
+    .orange {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    .baggy > h5 {
+        font-size: 12px;
+
+    }
+
+
+    .shippings {
+        font-size: 14px;
+    }
+   
+
+    .money {
+        font-size: 14px;
+      
+       
+        
+    }
+   
+
+    .honey {
+        margin-right: 10px;
+    }
+
+
+
+    .info {
+         margin-left: 10px;
+        align-items: flex-start;
+    }
+
+
+    label {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+
+    .email {
+        font-size: 12px;
+        width: 349.25px;
+        height: 40.56px;
+    }
+
+    .phone{
+        font-size: 12px;
+        width: 349.25px;
+        height: 40.56px; 
+    }
+
+
+    .name {
+        font-size: 12px;
+        width: 349.25px;
+        height: 40.56px;
+    }
+
+    .address {
+        font-size: 12px;
+        width: 349.25px;
+        height: 40.56px;
+    }
+
+    .city {
+        font-size: 12px;
+        width: 349.25px;
+        height: 40.56px;
+    }
+
+
+    .country {
+        width: 162.98px;
+        height: 40.56px;
+        font-size: 12px;
+    }
+
+
+    .postal {
+        width: 167.98px;
+        height: 37.56px;
+        font-size: 12px;
+    }
+
+
+    .information {
+        
+        width: 211.73px;
+        height: 14.77px;
+        margin-left: 10px;
+        margin-top: 330px;
+        
+    }
+
+    .information > label {
+        font-size: 10px;
+     
+    }
+
+
+    .btn {
+
+        margin-left: 212px;
+        width: 166px;
+        height: 54px;
+       font-size: 16px;
+    
+        
+    }
+
+
+
+    .footer > p {
+        font-size: 14px;
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
